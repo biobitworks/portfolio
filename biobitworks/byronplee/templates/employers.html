@@ -1,0 +1,6 @@
+{% extends "index.html" %}
+{% block employers %}
+    {% for employer in employers_list %}
+    <li>{{ employer.name_employer }}</li>
+    {% endfor %}
+{% endblock %}

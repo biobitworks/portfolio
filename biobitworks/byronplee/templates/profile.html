@@ -1,0 +1,7 @@
+{% extends "index.html" %}
+    {% block content %}
+        Profile for {{ person_profile.first_name }} {{ person_profile.last_name }}
+        {% for x in employers_list %}
+        <li>{{ x.name_employer }}</li>
+        {% endfor %}
+    {% endblock %}

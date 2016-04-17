@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c15410ed-075e-444e-a92d-449a9aed6eb8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/.nonadmin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_bz2.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_ctypes.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_ctypes_test.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_ctypes_test.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_decimal.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_elementtree.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_hashlib.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_lzma.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_msi.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_multiprocessing.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_overlapped.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_socket.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_sqlite3.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_ssl.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_testbuffer.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_testbuffer.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_testcapi.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_testcapi.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_testimportmultiple.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_testimportmultiple.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_testmultiphase.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_testmultiphase.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_tkinter.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/_tkinter.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/py.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/pyc.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/pyexpat.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/select.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/sqlite3.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/sqlite3.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/tcl86t.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/tk86t.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/unicodedata.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/DLLs/winsound.pyd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Doc/python351.chm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/site-packages/setuptools-20.7.0-py3.5.egg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/2to3.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/easy_install.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/idle.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/pip.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/pydoc.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/wheel.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-console-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-datetime-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-debug-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-errorhandling-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-file-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-file-l1-2-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-file-l2-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-handle-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-heap-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-interlocked-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-libraryloader-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-localization-l1-2-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-memory-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-namedpipe-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-processenvironment-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-processthreads-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-processthreads-l1-1-1.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-profile-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-rtlsupport-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-string-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-synch-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-synch-l1-2-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-sysinfo-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-timezone-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-core-util-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-conio-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-convert-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-environment-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-filesystem-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-heap-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-locale-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-math-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-multibyte-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-private-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-process-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-runtime-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-stdio-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-string-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-time-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/api-ms-win-crt-utility-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/concrt140.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/libs/_tkinter.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/libs/python3.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/libs/python35.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/msvcp140.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/python.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/python.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/python35.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/python35.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/pythonw.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/pythonw.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/tcl/tcl86t.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/tcl/tcl86tg.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/tcl/tclstub86.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/tcl/tk86t.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/tcl/tk86tg.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/tcl/tkstub86.lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/ucrtbase.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/vccorlib140.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/vcruntime140.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/biobitworks/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/biobitworks/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/biobitworks/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/biobitworks/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/templates/employers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/templates/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/byronplee/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/biobitworks/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/__future__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/__phello__.foo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_bootlocale.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_collections_abc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_compat_pickle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_compression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_dummy_thread.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_markupbase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_osx_support.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_pydecimal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_pyio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_sitebuiltins.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_strptime.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_threading_local.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/_weakrefset.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/abc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/aifc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/antigravity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/argparse.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/ast.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/asynchat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/asyncore.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/base64.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/bdb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/binhex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/bisect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/bz2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/cProfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/calendar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/cgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/cgitb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/chunk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/cmd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/code.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/codecs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/codeop.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/colorsys.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/compileall.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/configparser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/contextlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/copy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/copyreg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/crypt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/csv.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/datetime.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/decimal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/difflib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/dis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/doctest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/dummy_threading.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/enum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/filecmp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/fileinput.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/fnmatch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/formatter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/fractions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/ftplib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/functools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/genericpath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/getopt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/getpass.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/gettext.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/glob.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/gzip.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/hashlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/heapq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/hmac.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/imaplib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/imghdr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/imp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/inspect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/io.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/ipaddress.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/keyword.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/linecache.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/locale.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/lzma.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/macpath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/macurl2path.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/mailbox.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/mailcap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/mimetypes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/modulefinder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/netrc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/nntplib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/ntpath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/nturl2path.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/numbers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/opcode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/operator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/optparse.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/os.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pathlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pdb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pickle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pickletools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pipes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pkgutil.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/platform.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/plistlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/poplib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/posixpath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pprint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/profile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pstats.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pty.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/py_compile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pyclbr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/pydoc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/queue.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/quopri.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/re.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/reprlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/rlcompleter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/runpy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/sched.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/selectors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/shelve.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/shlex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/shutil.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/signal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/site-packages/django/shortcuts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/site.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/site.py.orig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/smtpd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/smtplib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/sndhdr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/socket.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/socketserver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/sre_compile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/sre_constants.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/sre_parse.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/ssl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/stat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/statistics.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/string.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/stringprep.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/struct.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/subprocess.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/sunau.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/symbol.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/symtable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/sysconfig.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/tabnanny.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/tarfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/telnetlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/tempfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/textwrap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/this.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/threading.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/timeit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/token.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/tokenize.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/trace.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/traceback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/tracemalloc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/tty.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/turtle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/types.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/typing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/uu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/uuid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/warnings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/wave.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/weakref.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/webbrowser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/xdrlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/zipapp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Lib/zipfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/2to3-script.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/easy_install-script.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/idle-script.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/pip-script.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/pydoc-script.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/Scripts/wheel-script.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/abstract.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/boolobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/bytes_methods.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/enumobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/fileobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/genobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/memoryobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/modsupport.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/object.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/osdefs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/pgen.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/pyconfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/pydebug.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/pyerrors.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/pylifecycle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/pymacconfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/pymacro.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/pystrcmp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/structseq.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/symtable.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/sysmodule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/unicodeobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/include/warnings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/tcl/tclConfig.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdev/tcl/tclooConfig.sh" />
+    </list>
+    <ignored path="portfolio.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/portfolio$views.coverage" NAME="views Coverage Results" MODIFIED="1460912408091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/biobitworks/byronplee" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="portfolio" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testserver_start.py" />
+        <option value="$PROJECT_DIR$/biobitworks/byronplee/models.py" />
+        <option value="$PROJECT_DIR$/biobitworks/byronplee/admin.py" />
+        <option value="$PROJECT_DIR$/biobitworks/biobitworks/urls.py" />
+        <option value="$PROJECT_DIR$/biobitworks/biobitworks/templates/byronplee/index.html" />
+        <option value="$PROJECT_DIR$/biobitworks/biobitworks/templates/byronplee/profile.html" />
+        <option value="$PROJECT_DIR$/biobitworks/biobitworks/settings.py" />
+        <option value="$PROJECT_DIR$/biobitworks/byronplee/templates/base.html" />
+        <option value="$PROJECT_DIR$/biobitworks/byronplee/templates/employers.html" />
+        <option value="$PROJECT_DIR$/biobitworks/byronplee/urls.py" />
+        <option value="$PROJECT_DIR$/biobitworks/byronplee/templates/profile.html" />
+        <option value="$PROJECT_DIR$/biobitworks/byronplee/templates/index.html" />
+        <option value="$PROJECT_DIR$/biobitworks/byronplee/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="portfolio">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/biobitworks" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Byron\Google Drive\Ongoing Projects\portfolio\biobitworks\byronplee\templates" />
+      <recent name="C:\Users\Byron\Google Drive\Ongoing Projects\portfolio\biobitworks\byronplee" />
+      <recent name="C:\Users\Byron\Google Drive\Ongoing Projects\portfolio\biobitworks\biobitworks\templates" />
+      <recent name="C:\Users\Byron\Google Drive\Ongoing Projects\portfolio\biobitworks\biobitworks\byronplee" />
+      <recent name="C:\Users\Byron\Google Drive\Ongoing Projects\portfolio\biobitworks\biobitworks" />
+    </key>
+  </component>
+  <component name="RemoteSynchronizer">
+    <option name="targetMappings">
+      <list>
+        <TargetMappings>
+          <option name="name" value="Default" />
+        </TargetMappings>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration default="false" name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/biobitworks/byronplee" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/biobitworks/byronplee/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="portfolio" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="portfolio" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c15410ed-075e-444e-a92d-449a9aed6eb8" name="Default" comment="" />
+      <created>1460739073236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1460739073236</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3156146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.97959185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39896372" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31111112" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.277865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/biobitworks/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testserver_start.py" />
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/templates/employers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/biobitworks/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/byronplee/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biobitworks/biobitworks/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="(19||20)\d\d([- /.])(0[1-9]||1[012])\2(0[1-9]||[12][0-9]||3[01])" />
+        <entry key="text" value="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" />
+      </map>
+    </option>
+  </component>
+</project>

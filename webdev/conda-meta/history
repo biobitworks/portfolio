@@ -1,0 +1,12 @@
+==> 2016-04-15 12:50:31 <==
+# cmd: C:\Users\Byron\Anaconda3\Scripts\conda-script.py create -p C:\Users\Byron\Google Drive\Ongoing Projects\portfolio\webdev python=3.5 -y
+pip-8.1.1-py35_1
+python-3.5.1-4
+setuptools-20.7.0-py35_0
+vs2015_runtime-14.00.23026.0-0
+wheel-0.29.0-py35_0
+# create specs: ['python 3.5*']
+==> 2016-04-16 12:25:02 <==
+# cmd: C:\Users\Byron\Anaconda3\Scripts\conda-script.py install -p C:/Users/Byron/Google Drive/Ongoing Projects/portfolio/webdev django -y
++django-1.9.5-py35_0
+# install specs: ['django', 'python 3.5*']
