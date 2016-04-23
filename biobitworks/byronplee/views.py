@@ -1,12 +1,12 @@
 from django.shortcuts import render
 
 # Create your views here.
-from .models import Person, Employer
+from .models import Person, Employer, Reference
 
 def index(request):
     person_profile = Person.objects.get(pk=1)
     context = {'person_profile': person_profile}
-    return render(request, 'profile.html', context)
+    return render(request, 'index.html', context)
 
 def employers(request):
     employee_x = Person.object.get(pk=1)

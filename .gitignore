@@ -1,0 +1,6 @@
+### Vagrant template
+.vagrant/
+
+# Created by .ignore support plugin (hsz.mobi)
+biobitworks/db.sqlite3
+biobitworks/byronplee/migrations/
