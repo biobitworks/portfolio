@@ -1,0 +1,45 @@
+{% extends "labapp/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-8 col-lg-12">
+            <h1>Current Lab Members</h1>
+            <br>
+        </div>
+    </div>
+
+
+    <div class="row">
+        {% for lab_member in lab_members_list %}
+            <div class="col-xs-8 col-sm-6 col-md-4">
+{#                <div class="person_summary">#}
+                    {% if lab_member.photo %}
+                        <a href="{% url "profile" lab_member.id %}"><img class="my_thumb" src='/media/{{lab_member.photo}}' alt="{{ lab_member }}"></a>
+                    {% else %}
+                        <a href="{% url "profile" lab_member.id %}"><img class="my_thumb" src='{% static "labapp/images/whodunit.png" %}' alt="{{ lab_member }}"></a>
+                    {% endif %}
+                    <div class="caption"></div>
+                    <h4><a href="{% url "profile" lab_member.id %}">{{ lab_member}}</a></h4>
+                    <h4>{{ lab_member.position_title }}</h4>
+                    <br>
+                    <br>
+{#                </div>#}
+            </div>
+        {% endfor %}
+    </div>
+
+
+{#    <div class="row">#}
+{#        <div class="col-sm-12">#}
+{#            <h1>Alumni</h1>#}
+{#            <br>#}
+{#        </div>#}
+{#    </div>#}
+
+</div>
+{% endblock %}
+

@@ -1,0 +1,46 @@
+{% extends "labapp/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <br>
+                <p>{{ article.science_format_with_link|safe }}</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Abstract</h2>
+                <p>{{ article.abstract }}</p>
+            </div>
+        </div>
+
+        {% if commentary %}
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Commentary</h2>
+                {% for comment in commentary %}
+                <li style="list-style: none"><p><a href="{{ comment.commentary_link }}">{{ comment.commentary_name }}</a></p></li>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if f1000 %}
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>F1000</h2>
+                {% for f1 in f1000 %}
+                <li style="list-style: none"><p><a href="{{ f1.F1000_link }}">{{ f1.F1000_name }}</a></p></li>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+    </div>
+
+{% endblock %}

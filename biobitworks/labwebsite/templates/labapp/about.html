@@ -1,0 +1,101 @@
+{% extends "labapp/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <a id="section1"><h2>The Unfolded Protein Response in Health & Disease</h2></a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="img_division">
+                    <img class="img-responsive" src="{% static 'labapp/images/ire1kinasernase_research.gif'  %}" style="border:1px solid black;">
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p>Roughly one third of all proteins are transmembrane and secretory proteins that are modified, folded and assembled in the endoplasmic reticulum (ER). When the ER-folding machinery becomes overwhelmed, misfolded polypeptides accumulate leading to ER stress, with toxic consequences to cells. To adjust protein-folding capacity of the ER according to the need of the cell, a collection of ER-resident sensor/transducer proteins constantly monitor the protein folding status in the ER lumen and take corrective actions. Maintaining homeostasis between protein folding capacity and protein folding demand is crucial to ensure high fidelity in protein folding. The collection of conserved signaling pathways in charge of overseeing proper ER function is known as the unfolded protein response (UPR).</p>
+                <p>Since its discovery in our lab some 20 years ago, our knowledge of the UPR has vastly expanded; growing from insights obtained from the budding yeast <i>Saccharomyces cerevisiae</i>, where a single signal transduction pathway is in charge of responding to ER stress. The ER stress sensor/transducer, Ire1, is a kinase/endoribonuclease that lies within the ER membrane and responds to protein folding perturbations. Upon accumulation of unfolded proteins, Ire1 binds to them and, in response, oligomerizes in the plane of the ER membrane. The oligomerization reaction leads to Ire1’s <i>trans</i>-autophosphorylation and allosteric activation of its endoribonuclease activity. In <i>S. cerevisiae</i>, the transcript encoding the transcription factor Hac1 is the sole target of the Ire1’s nuclease activity. In an unconventional, cytoplasmic splicing reaction, Ire1 removes an intron from <i>HAC1</i> mRNA, which is repaired by tRNA ligase, allowing the production of the Hac1 transcription factor that executes a transcriptional response to augment the ER’s capacity. </p>
+                <p>As unique as this mechanism is, it appears to be not the only way for dealing with ER stress. Our group has uncovered an alternative, pre-emptive mechanism in the fission yeast <i>Schizosaccharomyces pombe</i>. Rather than relying on the transcriptional regulation of several hundred genes as is the case in <i>S. cerevisiae</i>, <i>S. pombe</i> alleviates ER stress by cleaving mRNAs encoding ER client proteins, thereby lowering the load of proteins entering the organelle. This mechanism, initially discovered in <i>Drosophila</i> and known as regulated IRE-dependent degradation (RIDD), is the sole way employed by <i>S. pombe</i> to deal with ER stress. Interestingly, the mRNA encoding the most abundant ER chaperone Bip1 is also subject to this regulation in S. pombe. Paradoxically, cleavage of the Bip1 mRNA by Ire1 does not lead to its degradation but to its stabilization and a transient updraft in the levels of Bip1, which in turn help to alleviate ER stress. Thus, evolution has endowed these two different yeast species with distinct mechanisms to deal with ER stress. We are currently leveraging these two extremes to decipher the mechanistic differences in Ire1  that allow it to operate in the splicing or RIDD modes.</p>
+                <p>With the advent of multicellularity, higher eukaryotes tailored their UPR, entwining the complexities found in both <i>S. cerevisiae</i> and <i>S. pombe</i>. For instance, mammalian cells exhibit both RIDD and the unconventional splicing of the mRNA encoding XBP1 — the functional homolog of Hac1. Mammalian cells also possess two additional ER stress sensors, the kinase PERK, and the membrane-tethered transcription factor ATF6. Like RIDD, PERK activation results in a pre-emptive defense mechanism against ER stress. Active PERK phosphorylates the (alpha)-subunit of eukaryotic translation initiation factor 2, leading to a global attenuation of protein synthesis. This allows the cell to cope with upsurges in protein folding defects by down-tuning protein synthesis. On the other hand, ATF6,  akin to Hac1 and XBP1, initiates a vast and comprehensive transcriptional program aimed at augmenting the folding capacity of the ER. Upon detection of ER stress, ATF6 travels in transport vesicles to the Golgi apparatus, where it undergoes regulated intramembrane proteolysis. This liberates its cytosolic transactivation domain, which then moves into the nucleus to activate its UPR target genes. Because of the comprehensive nature of the UPR, the fundamental response of the cells is to try to reinstate homeostasis by correcting the folding defects. However, if the stress persists, the cell commits to apoptosis, thereby ensuring that damaged cells are removed for the benefit of the organism.
+                </p>
+                <p>By continuously expanding the depth of our knowledge of the UPR, we seek to understand how the UPR operates in normal cells and how it may be rewired in disease. For example, cancer cells abuse the UPR for selfish survival, exploiting the cytoprotective functions of the UPR while evading its apoptotic output. In the past years we have learned that genetic redundancies within the UPR accommodate for defects in downstream signaling and, by applying deep sequencing methods, we have started to discover the genetic vulnerabilities within the UPR of cancer cells that could be exploited in developing new therapeutics. We are beginning to understand how this fundamental signaling pathway can be co-opted by tumor cells.</p>
+                <p>Outstanding questions include the detailed understanding of the structural mechanisms governing Ire1, PERK and ATF6 activation upon sensing of unfolded proteins, which remain active areas of investigation in the lab. In addition, we are working towards a fundamental structural and dynamic understanding of the interaction of Ire1 with its cognate RNA substrates. While we know some of the sequence/structure determinants of RNA recognition in Ire1’s splicing substrates, this knowledge still evades us for RIDD substrates. Additionally, the events leading to ATF6 activation and trafficking remain unanswered. Finally, we do not understand the interplay between ER stress sensors, nor do we know much regarding interactions with other cellular pathways.</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <a id="section2"><h2>Regulating Organelle Function, Abundance & Inheritance</h2></a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img class="img-responsive" src="{% static 'labapp/images/Organelle_research.gif' %}">
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p>Organelles are subcellular compartments that provide optimal conditions for distinct biochemical reactions. Coordination between these organelles is of vital importance for sustaining cellular function and viability.  A particular challenge is imposed on the cell by mitochondria and chloroplasts because these are the only two organelles, other than the nucleus, which contain genetic information. The organellar genome has a small size and a very limited coding capacity compared to the nuclear genome that encodes the vast majority of the organellar proteins. Thus, biogenesis of these organelles requires a continuous crosstalk between two spatially separated compartments. Moreover, mitochondria and chloroplasts fulfill a variety of essential functions. As such, their inheritance and integrity must be faithfully and continuously monitored.</p>
+                <p>In our lab we maintain a long-standing interest in the mechanisms that determine the morphology and dynamics of mitochondria and the distribution and inheritance of the mitochondrial genome (mtDNA). More than a decade ago we showed that mitochondria in the yeast <i>S. cerevisiae</i> form a single interconnected network that is maintained by balanced fusion and fission events. This observation paved the way for the identification of the machineries involved in these processes. A fascinating turning point was marked by our more recent discovery of the ERMES (ER-mitochondria encounter structure) complex that links together mitochondria and the endoplasmic reticulum at sites of actively replicating mitochondrial genomes. Surprisingly, we found that the ERMES complex is intimately linked to the process of mitochondrial fission, during which the ER wraps around mitochondria to induce a constriction that is subsequently utilized by mitochondrial fission components to complete scission. mtDNA is segregated to both of the resulting mitochondrial tips during this process, pointing to extensive molecular communication between the mitochondrial matrix and the ER. While these findings offer first insights into the mechanisms that facilitate mtDNA segregation and distribution, the molecular players that act directly on mtDNA in this process remain unknown. Another related outstanding question regarding mtDNA is how its copy number is regulated. To explore these questions, we have developed novel genetic and imaging tools that currently provide us with unprecedented insights into these questions.</p>
+                <p>Very recently, we have introduced the unicellular green algae <i>Chlamydomonas reinhardtii</i> as a model organism to dissect how nuclear gene expression is coordinated with the functional state of the chloroplast. Inspired by the discovery of the unfolded protein response and empowered by the development of a novel tool to specifically manipulate chloroplast protein homeostasis, we have embarked in a genetic screen that aims to identify the molecular players signaling from chloroplasts to nucleus.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <a id="section3"><h2>Subcellular Protein Targeting & Distribution</h2></a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img class="img-responsive" src="{% static 'labapp/images/Targeting_research.gif' %}" style="border:1px solid black;" >
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p>To ensure proper cellular function, proteins need to reach their appropriate subcellular destination. This is achieved by the accurate and faithful targeting of newly synthesized proteins to subcellular organelles. We are focusing on one fundamental pathway of co-translational protein targeting mediated by the signal recognition particle (SRP). We combine biochemical, structural, and in vitro single molecule approaches to break the SRP targeting reaction into individual steps (for example, SRP interacting with ribosomes, or SRP in complex with the SRP receptor interacting with the membrane translocon). The ultimate goal is to reconstitute all of the individual steps to obtain a “molecular movie” of the entire targeting reaction. In recent work we observed for a first time SRP binding events to actively translating ribosomes. These studies will provide a mechanistic framework for how cells process thousands of newly synthesized proteins and partition them out to where they need to go in the cell.</p>
+                <p>An additional critical aspect of achieving appropriate protein localization is the ability to sense and degrade proteins that are not effectively targeted to their intended subcellular location and are instead inserted into inappropriate organelles. We recently discovered a novel quality control pathway that recognizes the mistargeting of a unique class of membrane proteins known as tail-anchored (TA) proteins that can be inappropriately inserted into the outer mitochondrial membrane (OMM). This pathway uses the conserved AAA-ATPase Msp1 to sense mistargeting events in the OMM. In a nucleotide hydrolysis dependent manner, Msp1 then extracts mistargeted substrate, and channels it to destruction in the proteasome. In this way, Msp1 re-enforces the appropriate localization of TA proteins in the cell. We are using a combination of yeast genetics and biochemical approaches to identify additional players in this pathway and are reconstituting the process <i>in vitro</i> to decipher the molecular mechanism by which Msp1 extracts TA proteins from the lipid bilayer of the OMM. </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <a id="section4"><h2>Translational Regulation</h2></a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img class="img-responsive" src="{% static 'labapp/images/Ribosome_research.png' %}" style="border:1px solid black;">
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p>It is vital for cells to rapidly adjust protein levels in response to environmental changes. A major way cells modulate the concentration of proteins is by regulating their synthesis. There are three main stages of translation: initiation, elongation, and termination.  Translational control occurs mainly during the rate-limiting step of initiation, in which a large number of eukaryotic initiation factors (eIFs) work together in a multi-stage process.  The complex nature of translation initiation in eukaryotes offers a number of targets for regulation, many of which rely on the modulation of phosphorylation states in eIFs.  One of the most commonly used mechanisms for regulating translation is through phosphorylation of eIF2 upon activation of stress-sensing kinases (PERK, PKR, HRI, GCN2). Each of these kinases is regulated by a different stress signal — unfolded proteins in the ER lumen, viral infection, heme deficiency, and amino acid starvation, respectively). These pathways converge in the phosphorylation of the same residue in eIF2 and are collectively called the integrated stress response (ISR). Paradoxically, under conditions of reduced protein synthesis, translation of a small group of mRNAs containing upstream open reading frames (uORFs) is selectively upregulated.  Translation of these mRNAs is critical for mitigating cell stress but their prolonged expression can lead to activation of apoptotic pathways. </p>
+                <p>Our lab is interested in studying how translational reprogramming upon stress can determine cell fate, a process that is often deregulated in disease.  Standing questions include: the extent of translational reprogramming and whether it changes based on the severity or duration of the stress encountered; the mechanism by which uORFs induce translation of the downstream coding sequence upon eIF2 phosphorylation in higher eukaryotes; and the role of non-canonical translation initiation upon ISR induction and reduction of conventional initiation. We seek to understand if novel proteins are produced by these alternative initiation events under stress and their importance for cell physiology.</p>
+                <p>We are also investigating the prevalence of uORF translation under normal growth conditions by developing sensitive tools to directly detect the resulting peptides produced from these small open reading frames. These tools will allow us to systematically and carefully measure changes in their expression upon different cellular conditions.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <a id="section5"><h2 class="nopadding">Small Molecule Modulators of the UPR</h2></a>
+            </div>
+
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img class="img-responsive" src="{% static 'labapp/images/fruit_of_the_cell.jpg' %}">
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p>Activation of this stress-signaling pathway can alter the fate of diseased cells.  On one hand, it can be co-opted by cancer cells to sustain survival in the face of continuous stresses imposed by genomic instability and high mutational rates. On the other hand, as in type 2 diabetes, inherited protein folding and neurodegenerative diseases, its sustained activation can trigger apoptotic pathways leading to neuronal loss. To dissect the role of each of the UPR branches (IRE1, PERK and ATF6) in disease progression, we seek to identify tool compounds that specifically and acutely block each signaling arm. The discovery and development of these novel molecules will allow us to carefully assess the contribution of the different stress signaling branches to disease progression. </p>
+                <p>We have implemented cell-based screens to identify small molecule modulators. These screens have yielded potent and specific molecules that modulate each one of the branches of the UPR. We are currently focusing on a unique and potent tool compound, ISRIB, that not only blocks the PERK branch of the UPR but is an integrated stress response (ISR) inhibitor acting downstream of all eIF2 kinases (PERK, GCN2, HRI and PKR). Acute pharmacological treatment with ISRIB enhances cognition in normal rodents. We are now testing whether chronic inhibition of the ISR can prevent or reverse the cognitive decline that is associated with various neurodegenerative diseases.  We are also focusing our efforts on a novel ATF6 signaling inhibitor. Chemistry efforts are geared towards improving its pharmacokinetic properties to test its effects in vivo. Our goal is to identify the target of these novel molecules in cells, dissect the molecular mechanisms by which they block their respective signaling pathways, and explore if we can identify a therapeutic window for them in disease models.
+                </p>
+                <p>Besides the unbiased small molecule cell-based screens, we have also rationally designed modulators (ATP mimetics) that bind the kinase domain of IRE1 and positively or negatively modulate its RNAse activity. We investigate the mechanism by which occupancy of the ATP binding pocket results in activation or inhibition of the RNase function using enzymological and structural techniques. By using these tool compounds, we seek to understand the regulation of the two different outputs of the RNAse domain: the highly specific splicing of the XBP1 mRNA substrate and the degradation of ER-localized mRNAs. (RIDD). </p>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

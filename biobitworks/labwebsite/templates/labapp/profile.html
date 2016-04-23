@@ -1,0 +1,111 @@
+{% extends "labapp/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>{{ labmember.person.first_name }} {{ labmember.person.last_name }}</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" src='/media/{{ labmember.photo }}'/>
+            </div>
+        </div>
+
+        <section>
+            <h4>{{ labmember.position_title }}</h4>
+            {% if labmember.email %}
+                <p><a href="mailto:{{ labmember.email }}?Subject=Hello%20again" target="_top">{{ labmember.email }}</a></p>
+            {% endif %}
+        </section>
+
+        <section>
+            {% if scientific_interest %}
+                {% for interest in scientific_interest %}
+                    <h4>Scientific Interest</h4>
+                    <p>{{ interest.interests }}</p>
+                {% endfor %}
+            {% endif %}
+
+        </section>
+
+        <section>
+            {% if current_work %}
+                {% for work in current_work %}
+                    <h4>Current Research Interests</h4>
+                    <p>{{ work.current_work }}</p>
+                {% endfor %}
+            {% endif %}
+        </section>
+
+        <section>
+            {% if affiliations %}
+                <h4>Former Lab Affiliations</h4>
+                <table>
+                    {% for affiliation in affiliations %}
+
+                        <tr>
+                            <td class="daterange">{{ affiliation.date_range }}</td><td>{{ affiliation.supervisor }} {{ affiliation.position }}, {{ affiliation.institution }}</td>
+                        </tr>
+
+                    {% endfor %}
+                </table>
+            {% endif %}
+        </section>
+
+        <section>
+            {% if education %}
+                <h4>Education</h4>
+                <table>
+                    {% for degree in education %}
+                        <tr>
+                            <td class="daterange">{{ degree.date_range }}</td><td>{{ degree.degree_type }} {{ degree.major }} {{ degree.institution }}, {{ degree.country }}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            {% endif %}
+        </section>
+
+
+        <section>
+            {% if social_networks %}
+        <h4>Links</h4>
+            {% for social in social_networks %}
+            <li style="list-style: none"><p><a href="{{ social.url }}">{{ social.type }}</a></p></li>
+            {% endfor %}
+            {% endif %}
+        </section>
+
+
+        <section>
+            {% if other_publications %}
+                <h4>Publications</h4>
+                {% for paper in other_publications %}
+                    <li style="list-style: none"><p>{{ paper.list_of_publications }}</p></li>
+                {% endfor %}
+            {% endif %}
+        </section>
+
+        {% if labmember.pi %}
+        {% else %}
+            {% if person_papers %}
+                <section>
+                    <h4>Walter Lab Publications</h4>
+
+                        {% for single_paper in person_papers %}
+                            <li style="list-style: none">{{ single_paper.science_format_with_link|safe }}</li>
+                        {% endfor %}
+
+                </section>
+            {% endif %}
+        {% endif %}
+
+    </div>
+
+{% endblock %}
+

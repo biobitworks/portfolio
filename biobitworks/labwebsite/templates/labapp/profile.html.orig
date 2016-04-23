@@ -1,0 +1,80 @@
+{% extends "labapp/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>{{ labmember.person.first_name }} {{ labmember.person.last_name }}</h2>
+
+                <h2>{{ labmember.position_title }}</h2>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" src='/media/{{ labmember.photo }}'/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <h4>{{ labmember.summary }}</h4>
+            </div>
+        </div>
+
+        <h4>Email: <a href="mailto:{{ labmember.email }}?Subject=Hello%20again" target="_top">{{ labmember.email }}</a>
+        </h4>
+
+        {% for social_network in social_networks %}
+            <li><a href="{{ social_network.url }}">{{ social_network.type }}</a></li>
+        {% endfor %}
+
+        <section>
+            <ul style="list-style-type:none">
+                {% for single_paper in person_papers %}
+                    <li>{{ single_paper.science_format_with_link|safe }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <img class="img-responsive" src='/media/{{ labmember.photo }}'/>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>{{ labmember.summary }}</h4>
+        </div>
+    </div>
+
+    <h4>Email: <a href="mailto:{{ labmember.email }}?Subject=Hello%20again" target="_top">{{ labmember.email }}</a></h4>
+
+    {% for social_network in social_networks %}
+        <li><a href="{{social_network.url}}">{{ social_network.type }}</a></li>
+    {% endfor %}
+
+    {% if labmember.pi %}
+        <section>
+            <a href="/publications">Publications</a>
+        </section>
+    {% else %}
+        <section>
+        <ul style="list-style-type:none">
+           {% for single_paper in person_papers  %}
+            <li>{{ single_paper.science_format_with_link|safe }}</li>
+           {% endfor %}
+        </ul>
+        </section>
+    {% endif %}
+
+</div>
+
+{% endblock %}
+

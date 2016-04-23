@@ -1,0 +1,26 @@
+{% extends "labapp/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 nopadding">
+                <div id="art-div" class="img_division">
+                    <a href="{% static 'labapp/images/main_art.png' %}"><img id="art" class="img-responsive" src="{% static 'labapp/images/main_art_min.jpg' %}"></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                <h1>{{ labname }} at UCSF</h1>
+                <p>Our laboratory seeks a molecular understanding of how cells control the quality of their proteins and organelles during homeostasis and stress. We are identifying the machinery and mechanisms that ensure proper protein synthesis, folding, and targeting, as well as the pathways that allow organelles to communicate and regulate their abundance. Additionally, we aim to understand how the rewiring of these processes leads to, or prevents the progression of disease. Our laboratory uses a diverse array of techniques, ranging from biochemical reconstitution to genetics, to fuel our search for fundamental discoveries in cell biology.</p>
+               <ul>
+                <li style="list-style: none"><p><a href="about.html#section1">The Unfolded Protein Response in Health & Disease</a></p></li>
+                <li style="list-style: none"><p><a href="about.html#section2">Regulating Organelle Abundance & Inheritance</a></p></li>
+                <li style="list-style: none"><p><a href="about.html#section3">Subcellular Protein Targeting & Distribution</a></p></li>
+                <li style="list-style: none"><p><a href="about.html#section4">Regulation of Translation</a></p></li>
+                <li style="list-style: none"><p><a href="about.html#section5">Small Molecule Modulators of the UPR</a></p></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

@@ -1,0 +1,37 @@
+{% extends "labapp/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="container">
+        <div class="row bottompadding">
+            <div class="input-lg col-lg-12">
+                <input id="search_input" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-9">
+                <ul style="list-style: none; padding-left:0px;" id="search_list">
+                    {% for paper in publications %}
+                        <li><p>{{ paper.science_format_with_link|safe }}</p></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+
+{% block java_code %}
+    <script src="{% static 'labapp/js/jquery.fastLiveFilter.js' %}"></script>
+    <script>
+        $(function () {
+            $('#search_input').fastLiveFilter('#search_list');
+        });
+    </script>
+{% endblock %}
+
+
+
+

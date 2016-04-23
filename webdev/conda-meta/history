@@ -10,3 +10,9 @@ wheel-0.29.0-py35_0
 # cmd: C:\Users\Byron\Anaconda3\Scripts\conda-script.py install -p C:/Users/Byron/Google Drive/Ongoing Projects/portfolio/webdev django -y
 +django-1.9.5-py35_0
 # install specs: ['django', 'python 3.5*']
+==> 2016-04-23 18:11:22 <==
+# cmd: C:\Users\Byron\Anaconda3\Scripts\conda-script.py install biopython
++biopython-1.66-np111py35_0
++mkl-11.3.1-0
++numpy-1.11.0-py35_0
+# install specs: ['biopython', 'python 3.5*']

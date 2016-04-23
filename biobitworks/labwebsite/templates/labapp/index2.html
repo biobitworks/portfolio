@@ -1,0 +1,20 @@
+{% extends "labapp/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div id="art-div" class="img_division">
+                    <a href="{% static 'labapp/images/main_art.png' %}"><img id="art" class="img-responsive" src="{% static 'labapp/images/main_art_min.jpg' %}"></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                <h1>{{ labname }} at UCSF</h1>
+                <p>Research in our laboratory centers on three fundamental questions in cell biology, for which we seek a molecular understanding. First, we would like to understand how eukaryotic cells regulate the abundance of their organelles. Intracellular regulatory pathways that control organelle growth and turnover are crucial for cells to maintain organelles in proper amounts at homeostasis and to become specialized upon differentiation. Second, we study the mechanisms by which proteins become properly localized within a cell. Protein sorting is essential to establish and maintain order and compartmentalization in all living cells. Finally, we wish to elucidate the molecular components and mechanisms that dynamically organize the plasma membrane, both during endocytosis and during cell/cell fusion. </p>
+                <p><a class="btn btn-default btn-sm" href="about">More about our lab &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
