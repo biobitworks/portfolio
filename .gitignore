@@ -3,4 +3,7 @@
 
 # Created by .ignore support plugin (hsz.mobi)
 biobitworks/db.sqlite3
+/biobitworks/labwebsite/migrations
+/biobitworks/borrowedlatter/migrations
+/biobitworks/biobitworks/settings.py
 biobitworks/byronplee/migrations/

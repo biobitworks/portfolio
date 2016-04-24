@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'byronplee',
     'labwebsite',
+    'borrowedlatter',
 ]
 
 MIDDLEWARE_CLASSES = [
