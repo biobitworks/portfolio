@@ -30,9 +30,8 @@ urlpatterns = patterns('',
     (r'^social/', include('photologue_custom.urls')),
     (r'^social/', include('photologue.urls')),
     (r'^pages/', include('django.contrib.flatpages.urls')),
-) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+)+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-# Your other patterns here
 urlpatterns += patterns('django.contrib.flatpages.views',
     (r'^(?P<url>.*/)$', 'flatpage'),
 )
