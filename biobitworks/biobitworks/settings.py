@@ -41,6 +41,11 @@ INSTALLED_APPS = [
     'byronplee',
     'labwebsite',
     'borrowedlatter',
+    'PIL',
+    'Bio',
+    'numpy',
+    'wheel',
+    'photologue_custom',
 ]
 
 MIDDLEWARE_CLASSES = [

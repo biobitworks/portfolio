@@ -1,6 +1,7 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import patterns, url, include
 
-from labapp import views
+
+from labwebsite import views
 
 
 urlpatterns = patterns('',
@@ -26,5 +27,12 @@ urlpatterns = patterns('',
     url(r'^social/$', views.social, name='social'),
     # url(r'^research/$', views.research, name='research'),
     # url(r'^research.html$', views.research, name='research'),
+    (r'^social/', include('photologue_custom.urls')),
+    (r'^social/', include('photologue.urls')),
+    (r'^pages/', include('django.contrib.flatpages.urls')),
+) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+# Your other patterns here
+urlpatterns += patterns('django.contrib.flatpages.views',
+    (r'^(?P<url>.*/)$', 'flatpage'),
 )

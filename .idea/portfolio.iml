@@ -15,6 +15,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.vagrant" />
       <excludeFolder url="file://$MODULE_DIR$/biobitworks/borrowedlatter/migrations" />
       <excludeFolder url="file://$MODULE_DIR$/biobitworks/labwebsite/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/biobitworks/photologue_custom/migrations" />
       <excludeFolder url="file://$MODULE_DIR$/webdev" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.5.1 (C:\Users\Byron\Anaconda3\envs\django\python.exe)" jdkType="Python SDK" />
@@ -26,6 +27,7 @@
       <list>
         <option value="$MODULE_DIR$/biobitworks/byronplee/templates" />
         <option value="$MODULE_DIR$/biobitworks/labwebsite/templates" />
+        <option value="$MODULE_DIR$/biobitworks/photologue_custom/templates" />
       </list>
     </option>
   </component>

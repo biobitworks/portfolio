@@ -7,3 +7,4 @@ biobitworks/db.sqlite3
 /biobitworks/borrowedlatter/migrations
 /biobitworks/biobitworks/settings.py
 biobitworks/byronplee/migrations/
+/biobitworks/photologue_custom/migrations

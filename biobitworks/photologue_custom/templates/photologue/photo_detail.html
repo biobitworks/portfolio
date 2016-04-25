@@ -1,0 +1,49 @@
+{% extends "photologue/root.html" %}
+{% load photologue_tags i18n %}
+
+{% block title %}{{ object.title }}{% endblock %}
+
+{% block content %}
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>{{ object.title }}</h2>
+                <h2>{{ object.caption|safe }}</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="{{ object.image.url }}">
+                    <img src="{{ object.get_display_url }}" class="thumbnail img-responsive" alt="{{ object.title }}">
+                </a>
+            </div>
+        </div>
+
+        {% if object.public_galleries %}
+            <hr>
+            <div class="row">
+                {% for gallery in object.public_galleries %}
+                    <div class="col-sm-4">Previous</div>
+                    <div class="col-sm-4">Back to <a href="{{ gallery.get_absolute_url }}">{{ gallery.title }}</a></div>
+                    <div class="col-sm-4">Next</div>
+                    </div><div class="row">
+                    <div class="col-sm-4">{% previous_in_gallery object gallery %}</div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">{% next_in_gallery object gallery %}</div>
+                </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+    </div>
+
+{% endblock %}
+
+{% block more_js %}
+    {{ super }}
+    <script>
+        $('#social_menu_item').addClass('active');
+    </script>
+{% endblock %}

@@ -5,7 +5,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 #from django.http import HttpResponse
 #from django.core.urlresolvers import reverse
 
-from forms import *
+from .forms import *
 from Bio import Medline
 from Bio import Entrez
 
@@ -37,7 +37,7 @@ def social(request):
 
 def publications(request):
     publications_list=Paper.objects.all().order_by('-pubdate')
-    print publications_list
+    print(publications_list)
     context = {}
     context['publications']=publications_list
     context['publications_active']='class=active'
@@ -62,7 +62,7 @@ def article(request, paper_id):
 
 def people(request):
     lab_members_list=LabMember.objects.filter(active=True).order_by('-pi', 'person__last_name')
-    print lab_members_list
+    print(lab_members_list)
 
     context = {}
     context['lab_members_list'] = lab_members_list
@@ -72,7 +72,7 @@ def people(request):
 
 def alumni(request):
     alumni_list=LabMember.objects.filter(active=False).order_by('person__last_name')
-    print alumni_list
+    print(alumni_list)
 
     context = {}
     context['alumni_list'] = alumni_list
