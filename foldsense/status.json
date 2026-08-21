@@ -1,0 +1,19 @@
+{
+  "project": "FoldSense",
+  "release": "judge-static-baseline-v0.1",
+  "scientific_mode": "procedural_conformational_demonstration",
+  "services": {
+    "vapi": "STATIC_DEMO",
+    "elevenlabs": "STATIC_DEMO",
+    "apify": "STATIC_DEMO",
+    "gmi": "STATIC_DEMO",
+    "gemini": "STATIC_DEMO",
+    "exa": "STATIC_DEMO"
+  },
+  "claim_boundary": {
+    "real_md_trajectory": false,
+    "live_sponsor_integrations": false,
+    "signed_release": false,
+    "merkle_committed": false
+  }
+}
